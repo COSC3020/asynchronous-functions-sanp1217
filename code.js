@@ -1,14 +1,11 @@
 const async = require("async");
 
-function countMatches(nums) {
+function countMatches(nums, compare) {
 	let count = 0;
-	async.each(nums, function (num, callback) {
-		let compare = 2;
-
+	async.each(nums, function (num) {
 		if (num == compare) {
 			count++;
 		}
-		callback();
 	});
 	return count;
 }
