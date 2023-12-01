@@ -20,4 +20,4 @@ this.
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
 
-The worst case $\Theta& of my implementation is n. The async documentation mentions that the second parameter to async.each, the iteratee function, runs asynchronously but the third parameter, the callback, is called when all of the runs of the second parameter finish. So, this still runs at $\Theta$(n)
+The worst case $\Theta$ of my implementation is n. The async documentation mentions that the second parameter to async.each, the iteratee function, runs asynchronously but the third parameter, the callback, is called when all of the runs of the second parameter finish. So, this still runs at $\Theta$(n)
