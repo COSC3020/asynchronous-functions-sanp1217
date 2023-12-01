@@ -1,3 +1,5 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13092216&assignment_repo_type=AssignmentRepo)
+
 # Asynchronicity
 
 Implement a function that takes an array and a key to search for and counts the
@@ -17,3 +19,5 @@ this.
 
 What is the time complexity of your implementation (worst-case $\Theta$)? Add
 your answer, including your reasoning, to this markdown file.
+
+The worst case $\Theta$ of my implementation is n. The async documentation mentions that the second parameter to async.each, the iteratee function, runs asynchronously but the third parameter, the callback, is called when all of the runs of the second parameter finish. So, this still runs at $\Theta$(n)
